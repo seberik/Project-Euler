@@ -22,13 +22,6 @@ public class Problem1 {
 		return sum;
 	}
 	
-	/**
-	 * - multof
-	 * Generate integer multiples < limit 
-	 * @param num
-	 * @param lim
-	 * @return set of integer multiples
-	 */
 	private static Set<Integer> multof(int[] num, int lim) {
 		
 		Set<Integer> mults = new HashSet<Integer>();
